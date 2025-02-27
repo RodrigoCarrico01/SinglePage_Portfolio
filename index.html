@@ -6,16 +6,46 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
-  <link rel="stylesheet" href="styles/global.css">
+  <link rel="stylesheet" href="styles/index.css">
   <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Maven+Pro:wght@400..900&display=swap" rel="stylesheet">
 </head>
 <body>
-  <section id="intro">
-    <header>
-      <h3>Hello world! Meu nome é Martina Santos e sou</h3>
+  <div id="intro-bg">
+   <section id="intro" class="container">
+    <header class="flex">
+      <img src="assets/Profile.svg" alt="imagem de perfil">
+      <h4>Hello world! Meu nome é <span class="red">Martina Santos</span> e sou</h4>
       <h1>Desenvolvedora Fullstack</h1>
-      <p>Transformo necessidades em aplicações reais, evolventes e funcionais. Desenvolvo sistemas através da minha paixão pela tecnologia, contribuindo com soluções inovadoras e eficazes para desafios complexos.</p>
+      <p class="text-sm">Transformo necessidades em aplicações reais, evolventes e funcionais. Desenvolvo sistemas através da<br>  minha paixão pela tecnologia, contribuindo com soluções inovadoras e eficazes para desafios complexos. </p>
     </header>
-  </section>
+    <ul id="tags" class="flex">
+      <li class="flex">
+        <img src="assets/icons/GitHub.svg" alt="GitHub foto da tag"> 
+        <p class="text-md">GitHub</p>
+      </li>
+      <li class="flex">
+        <img src="assets/icons/HTML.svg" alt="HTML foto da tag">
+        <p class="text-md">HTML</p>
+      </li>
+      <li class="flex">
+        <img src="assets/icons/CSS.svg" alt="CSS foto da tag">
+        <p class="text-md">CSS</p>
+      </li>
+      <li class="flex">
+        <img src="assets/icons/JavaScript.svg" alt="JS foto da tag">
+        <p class="text-md">Javascript</p>
+      </li>
+      <li class="flex">
+        <img src="assets/icons/React.svg" alt="React foto da tag">
+        <p class="text-md">React</p>
+      </li>
+      <li class="flex">
+        <img src="assets/icons/Node.js.svg" alt="Node.js foto da tag">
+        <p class="text-md">Node.js</p>
+      </li>
+    </ul>
+    <img src="assets/icons/CaretDoubleDown.svg" alt="duas setinhas para baixo">
+   </section>
+  </div>
 </body>
 </html>

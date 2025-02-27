@@ -1,0 +1,19 @@
+.flex{
+  display: flex;
+}
+.grid{
+  display: grid;
+}
+.red{
+  color: var(--red);
+}
+
+.text-md{
+  color: var(--gray-400);
+  font: var(--text-md);
+}
+
+.text-sm{
+  color: var(--gray-400);
+  font: var(--text-sm);
+}

@@ -1,0 +1,51 @@
+#intro-bg{
+  background-image: url(../assets/images/Background_Intro.png);
+  background-size: cover;
+  background-position: center;
+}
+#intro {
+  margin: auto;
+
+  height: 750px;
+  /* border: 2px solid red;  */
+  place-items: center;
+  place-content: center;
+}
+
+#intro header{
+  margin: auto;
+  flex-direction: column;
+  place-items: center;
+  /* border: 2px solid blue; */
+}
+#intro header img:nth-child(1){
+  padding-bottom: 56px;
+}
+#intro header h4:nth-child(2){
+  padding-bottom: 8px;
+}
+#intro header h1:nth-child(3){
+  padding-bottom: 20px;
+}
+#intro header p:nth-child(4){
+  padding-bottom: 80px;
+}
+
+#tags{
+  margin: auto;
+  justify-content: center;
+  gap: 24px;
+  padding-bottom: 94px;
+}
+#tags li {
+  align-items: center;
+  padding: 8px 16px;
+  gap: 8px;
+  background-color: var(--gray-300);
+  border-radius: 999px;
+
+}
+#tags li img {
+  width: 24px;
+  height: 24px;
+}

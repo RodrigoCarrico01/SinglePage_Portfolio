@@ -36,5 +36,36 @@
 }
 
 body{
-  background-color: var(--gray-300);
+  background-color: var(--gray-200);
+}
+
+h1{
+  font: var(--title-lg);
+  color: var(--gray-600);
+}
+h2{
+  font: var(--title-md);
+  color: var(--gray-600);
+}
+h3{
+  font: var(--title-sm);
+  color: var(--gray-600);
+}
+h4{
+  font: var(--subtitle);
+  color: var(--gray-500);
+}
+a{
+  text-decoration: none;
+}
+img{
+  max-width: 100%;
+}
+.container{
+  padding-inline: 120px;
+  max-width: 1280px;
+  margin-inline: auto;
+}
+ul{
+  list-style: none;
 }
