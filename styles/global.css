@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 :root{
   /*CORES*/
   --red: #E3646E;
@@ -30,10 +36,5 @@
 }
 
 body{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-h1 {
-  font: var(--title-lg);
+  background-color: var(--gray-300);
 }
