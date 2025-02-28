@@ -1,4 +1,8 @@
 
+#projects{
+  padding-bottom: 166px;
+
+}
 #projects header{
   flex-direction: column;
   place-items: center;
@@ -10,14 +14,19 @@
 #project-card-container {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  padding-bottom: 144px;
-  /* border: 1px solid blue; */
+  gap: 24px; 
 }
 
 #project-card-container .project-card {
   border-radius: 8px;
+  gap: 20px;
   padding: 24px;
+  border: 1px solid var(--gray-200);
   justify-content: space-around;
+  transition: ease-in 0.2s;
+}
+#project-card-container .project-card:hover {
+  border: 1px solid var(--gray-400)
 }
 #project-card-container .project-card h3{
   margin-bottom: 8px;
