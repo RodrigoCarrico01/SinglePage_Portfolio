@@ -1,0 +1,6 @@
+#services{
+  padding-block: 88px 120px;
+}
+#service-card-container {
+  grid-template-columns: repeat(3, 1fr);
+}

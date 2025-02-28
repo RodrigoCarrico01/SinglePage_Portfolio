@@ -7,7 +7,9 @@
 .red{
   color: var(--red);
 }
-
+.services-bg{
+  background-color: var(--gray-100);
+}
 .text-md{
   color: var(--gray-400);
   font: var(--text-md);
