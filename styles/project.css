@@ -4,7 +4,9 @@
   place-items: center;
   padding-block: 72px 56px;
 }
-
+#projects header h4{
+  margin-bottom: 8px;
+}
 #project-card-container {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
