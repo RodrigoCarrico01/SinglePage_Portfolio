@@ -7,8 +7,21 @@
 .red{
   color: var(--red);
 }
+.purple{
+  color: var(--purple);
+}
 .services-bg{
   background-color: var(--gray-100);
+}
+#intro-bg{
+  background-image: url(../assets/images/Background_Intro.png);
+  background-size: cover;
+  background-position: center;
+}
+#contact-bg{
+  background-image: url(../assets/images/Background_Contacts.png);
+  background-size: cover;
+  background-position: center;
 }
 .text-md{
   color: var(--gray-400);

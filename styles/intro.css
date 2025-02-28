@@ -1,8 +1,4 @@
-#intro-bg{
-  background-image: url(../assets/images/Background_Intro.png);
-  background-size: cover;
-  background-position: center;
-}
+
 #intro {
   margin-top: 120px;
   place-items: center;
