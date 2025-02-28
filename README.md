@@ -32,7 +32,7 @@ O Segundo desafio prático da trilha Full-Stack, promovido pela Rocketseat para 
 
 
 
-- [Visita o projeto online!](https://kelvingomes13.github.io/Portifolio-dev/)
+- [Visita o projeto online!](https://rodrigocarrico01.github.io/SinglePage_Portfolio/)
 
 ## Layout
 
