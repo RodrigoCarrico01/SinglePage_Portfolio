@@ -69,3 +69,9 @@ img{
 ul{
   list-style: none;
 }
+
+
+/*TESTES*/
+section{
+  border: 2px solid red;
+}
